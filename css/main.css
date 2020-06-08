@@ -1,0 +1,72 @@
+/*цвет основного текста #212121; */
+/* вторичный цвет текста #757575 */
+/* белый цвет #FFFFFF */
+/* акцент background: #2196F3; */
+/* футер #2F303A */
+/* контакты: rgba(255, 255, 255, 0.4) */
+/* вторичный цвет фона: #F5F4FA */
+
+.list {
+  list-style: none;
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36 em;
+}
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+}
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Examples */
+
+.work-list .title {
+  color: var(--primary-white-color);
+}
+
+/* Our team */
+
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team .title {
+  color: var(--title-text-color);
+}
+.our-team .link {
+  color: var(--primary-text-color);
+}
+.our-team .link:hover,
+.our-team .link:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.portfolio .button-secondary {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.portfolio .link:hover,
+.portfolio .link:focus {
+  color: var(--accent-color);
+}
+.projects .job {
+  color: var(--primary-text-color);
+}
