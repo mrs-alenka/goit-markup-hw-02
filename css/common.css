@@ -11,13 +11,17 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: var(--font-text);
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /* Стилизация logo */
 .logo {
   font-family: var(--font-logo);
-  letter-spacing: 0.06em;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .logo-blue {
   color: var(--accent-color);
@@ -29,7 +33,11 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -42,6 +50,12 @@ body {
 /* Cтилизация контактов в хедере */
 .header-contacts .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-style: normal;
 }
 .header-contacts .link:hover,
 .header-contacts .link:focus {
@@ -56,15 +70,19 @@ footer {
 }
 .address {
   color: var(--primary-white-color);
+  font-style: normal;
 }
-.contacts {
+.address .contacts {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
-.socials .title {
-  color: var(--primary-white-color);
-}
+.socials .title,
 .mailing .title {
   color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .socials .link {
   color: var(--primary-white-color);
@@ -72,4 +90,10 @@ footer {
 .socials .link:hover,
 .socials .link:focus {
   color: var(--accent-color);
+}
+.contacts-company {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
